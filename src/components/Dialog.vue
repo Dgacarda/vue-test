@@ -56,6 +56,13 @@ export default {
       dialog: true,
       prevRoute: null
     }
+  },
+  watch: {
+    dialog: function (val, oldVal) {
+      if(val === false){
+        router.go(-1);
+      }
+    },
   }
 }
 </script>
