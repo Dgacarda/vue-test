@@ -3,11 +3,7 @@
     <div id="app">
       <div id="nav">
         <router-link to="/">Home</router-link> |
-        <router-link to="/about">
-          <div>
-            <v-btn color="success">About</v-btn>
-          </div>
-        </router-link>
+        <router-link to="/about">About</router-link>
         <router-link to="/dialog">
           <div>
             <v-btn color="info">Dialog</v-btn>

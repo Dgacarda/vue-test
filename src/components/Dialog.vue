@@ -29,11 +29,11 @@
         <v-card-actions>
           <v-spacer></v-spacer>
           <v-btn
+            href="/"
             color="primary"
             flat
             @click="dialog = false"
-          >
-            I accept
+          >Back to main page
           </v-btn>
         </v-card-actions>
       </v-card>
@@ -46,7 +46,7 @@ export default {
   name: 'Dialog',
   data () {
     return {
-      dialog: false
+      dialog: true
     }
   }
 }
